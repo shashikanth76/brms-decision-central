@@ -135,7 +135,7 @@ public class FlightDetails implements Serializable {
 	}
 
 	public void addEconomyLightService(Service pService) {
-		this.economyClassicServiceList.add(pService);
+		this.economyLightServiceList.add(pService);
 	}
 
 	public void addEconomyClassicService(Service pService) {
