@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.offermanager</groupId>
-  <artifactId>inflight</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <artifactId>offermanager-rule</artifactId>
+  <version>1.0.0</version>
   <packaging>kjar</packaging>
-  <name>in flight</name>
+  <name>OfferManager</name>
   <description></description>
   <dependencies>
     <dependency>
