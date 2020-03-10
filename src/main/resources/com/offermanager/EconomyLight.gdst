@@ -455,7 +455,7 @@
         <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>addEconomyLightService</field>
+              <field>addAncillaryService</field>
               <value>$service</value>
               <nature>1</nature>
               <type>com.unisys.inflightservices.Service</type>
@@ -464,7 +464,7 @@
           </fieldValues>
           <variable>$flights</variable>
           <state>1</state>
-          <methodName>addEconomyLightService</methodName>
+          <methodName>addAncillaryService</methodName>
         </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
       </definition>
       <childColumns>
@@ -558,7 +558,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>MSP</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -568,7 +568,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>60</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -578,7 +578,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ADT</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -593,7 +593,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">10.0</valueNumeric>
+        <valueNumeric class="double">0.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
