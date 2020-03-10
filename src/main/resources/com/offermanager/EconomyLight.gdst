@@ -456,7 +456,8 @@
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>addEconomyLightService</field>
-              <nature>0</nature>
+              <value>$service</value>
+              <nature>1</nature>
               <type>com.unisys.inflightservices.Service</type>
               <method></method>
             </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
