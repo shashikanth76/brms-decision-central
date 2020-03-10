@@ -497,9 +497,6 @@
   <imports>
     <imports>
       <org.kie.soup.project.datamodel.imports.Import>
-        <type>com.unisys.inflightservices.FlightDetails</type>
-      </org.kie.soup.project.datamodel.imports.Import>
-      <org.kie.soup.project.datamodel.imports.Import>
         <type>com.unisys.inflightservices.RulesDto</type>
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
@@ -507,6 +504,9 @@
       </org.kie.soup.project.datamodel.imports.Import>
       <org.kie.soup.project.datamodel.imports.Import>
         <type>com.unisys.inflightservices.Service</type>
+      </org.kie.soup.project.datamodel.imports.Import>
+      <org.kie.soup.project.datamodel.imports.Import>
+        <type>com.unisys.inflightservices.FlightDetails</type>
       </org.kie.soup.project.datamodel.imports.Import>
     </imports>
   </imports>
