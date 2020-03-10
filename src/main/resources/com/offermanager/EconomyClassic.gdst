@@ -441,21 +441,7 @@
       <hideColumn>false</hideColumn>
       <width>-1</width>
       <header>Add Service</header>
-      <definition>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>addEconomyClassicService</field>
-              <nature>0</nature>
-              <type>com.unisys.inflightservices.Service</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-          </fieldValues>
-          <variable>$flights</variable>
-          <state>1</state>
-          <methodName>addEconomyClassicService</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-      </definition>
+      <definition/>
       <childColumns>
         <org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn>
           <hideColumn>false</hideColumn>
