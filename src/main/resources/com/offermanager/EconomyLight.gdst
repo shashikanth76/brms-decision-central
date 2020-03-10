@@ -14,7 +14,7 @@
     <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionColumn>
       <hideColumn>false</hideColumn>
       <width>-1</width>
-      <header>Ancillary Services</header>
+      <header>EconomyLight</header>
       <constraintValueType>1</constraintValueType>
       <parameters/>
       <definition>
@@ -122,55 +122,7 @@
                   <fieldType>Passenger</fieldType>
                 </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
                 <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                  <value>MinimumAge</value>
-                  <operator>&gt;=</operator>
-                  <constraintValueType>7</constraintValueType>
-                  <expression>
-                    <parts/>
-                    <index>2147483647</index>
-                  </expression>
-                  <parameters/>
-                  <factType>Passenger</factType>
-                  <fieldName>age</fieldName>
-                  <fieldType>Integer</fieldType>
-                  <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint">
-                    <constraintValueType>0</constraintValueType>
-                    <expression>
-                      <parts/>
-                      <index>2147483647</index>
-                    </expression>
-                    <parameters/>
-                    <factType>FlightDetails</factType>
-                    <fieldName>passenger</fieldName>
-                    <fieldType>Passenger</fieldType>
-                  </parent>
-                </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                  <value>PassengerType</value>
-                  <operator>in</operator>
-                  <constraintValueType>7</constraintValueType>
-                  <expression>
-                    <parts/>
-                    <index>2147483647</index>
-                  </expression>
-                  <parameters/>
-                  <factType>Passenger</factType>
-                  <fieldName>passengerType</fieldName>
-                  <fieldType>String</fieldType>
-                  <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint">
-                    <constraintValueType>0</constraintValueType>
-                    <expression>
-                      <parts/>
-                      <index>2147483647</index>
-                    </expression>
-                    <parameters/>
-                    <factType>FlightDetails</factType>
-                    <fieldName>passenger</fieldName>
-                    <fieldType>Passenger</fieldType>
-                  </parent>
-                </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                  <value>AirlineID</value>
+                  <value>TierNumber</value>
                   <operator>matches</operator>
                   <constraintValueType>7</constraintValueType>
                   <expression>
@@ -179,7 +131,7 @@
                   </expression>
                   <parameters/>
                   <factType>Passenger</factType>
-                  <fieldName>airlineID</fieldName>
+                  <fieldName>tier_number</fieldName>
                   <fieldType>String</fieldType>
                   <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint">
                     <constraintValueType>0</constraintValueType>
@@ -218,7 +170,7 @@
                   </parent>
                 </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
                 <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
-                  <value>TierNumber</value>
+                  <value>AirlineID</value>
                   <operator>matches</operator>
                   <constraintValueType>7</constraintValueType>
                   <expression>
@@ -227,8 +179,56 @@
                   </expression>
                   <parameters/>
                   <factType>Passenger</factType>
-                  <fieldName>tier_number</fieldName>
+                  <fieldName>airlineID</fieldName>
                   <fieldType>String</fieldType>
+                  <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint">
+                    <constraintValueType>0</constraintValueType>
+                    <expression>
+                      <parts/>
+                      <index>2147483647</index>
+                    </expression>
+                    <parameters/>
+                    <factType>FlightDetails</factType>
+                    <fieldName>passenger</fieldName>
+                    <fieldType>Passenger</fieldType>
+                  </parent>
+                </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                  <value>PassengerType</value>
+                  <operator>in</operator>
+                  <constraintValueType>7</constraintValueType>
+                  <expression>
+                    <parts/>
+                    <index>2147483647</index>
+                  </expression>
+                  <parameters/>
+                  <factType>Passenger</factType>
+                  <fieldName>passengerType</fieldName>
+                  <fieldType>String</fieldType>
+                  <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint">
+                    <constraintValueType>0</constraintValueType>
+                    <expression>
+                      <parts/>
+                      <index>2147483647</index>
+                    </expression>
+                    <parameters/>
+                    <factType>FlightDetails</factType>
+                    <fieldName>passenger</fieldName>
+                    <fieldType>Passenger</fieldType>
+                  </parent>
+                </org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                <org.drools.workbench.models.datamodel.rule.SingleFieldConstraint>
+                  <value>MinimumAge</value>
+                  <operator>&gt;=</operator>
+                  <constraintValueType>7</constraintValueType>
+                  <expression>
+                    <parts/>
+                    <index>2147483647</index>
+                  </expression>
+                  <parameters/>
+                  <factType>Passenger</factType>
+                  <fieldName>age</fieldName>
+                  <fieldType>Integer</fieldType>
                   <parent class="org.drools.workbench.models.datamodel.rule.SingleFieldConstraint">
                     <constraintValueType>0</constraintValueType>
                     <expression>
@@ -266,10 +266,11 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
           <factField>aircraftType</factField>
           <fieldType>String</fieldType>
+          <operator>==</operator>
           <parameters/>
           <varName>AircraftType</varName>
           <factType>FlightDetails</factType>
@@ -277,10 +278,11 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
           <factField>cabin</factField>
           <fieldType>String</fieldType>
+          <operator>==</operator>
           <parameters/>
           <varName>Cabin</varName>
           <factType>FlightDetails</factType>
@@ -288,10 +290,11 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
           <factField>destination</factField>
           <fieldType>String</fieldType>
+          <operator>==</operator>
           <parameters/>
           <varName>Destination</varName>
           <factType>FlightDetails</factType>
@@ -299,10 +302,11 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
           <factField>flightNumber</factField>
           <fieldType>String</fieldType>
+          <operator>matches</operator>
           <parameters/>
           <varName>FlightNumber</varName>
           <factType>FlightDetails</factType>
@@ -310,10 +314,11 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
           <factField>origin</factField>
           <fieldType>String</fieldType>
+          <operator>==</operator>
           <parameters/>
           <varName>Origin</varName>
           <factType>FlightDetails</factType>
@@ -321,43 +326,23 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>tier_number</factField>
+          <fieldType>String</fieldType>
+          <operator>matches</operator>
+          <parameters/>
+          <varName>TierNumber</varName>
+          <factType>FlightDetails</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
           <factField>age</factField>
           <fieldType>Integer</fieldType>
-          <parameters/>
-          <varName>MinimumAge</varName>
-          <factType>FlightDetails</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Ancillary Services</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>passengerType</factField>
-          <fieldType>String</fieldType>
-          <parameters/>
-          <varName>PassengerType</varName>
-          <factType>FlightDetails</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Ancillary Services</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>airlineID</factField>
-          <fieldType>String</fieldType>
-          <parameters/>
-          <varName>AirlineID</varName>
-          <factType>FlightDetails</factType>
-        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
-          <hideColumn>false</hideColumn>
-          <width>100</width>
-          <header>Ancillary Services</header>
-          <constraintValueType>1</constraintValueType>
-          <factField>age</factField>
-          <fieldType>Integer</fieldType>
+          <operator>&lt;</operator>
           <parameters/>
           <varName>MaximumAge</varName>
           <factType>FlightDetails</factType>
@@ -365,12 +350,37 @@
         <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
           <hideColumn>false</hideColumn>
           <width>100</width>
-          <header>Ancillary Services</header>
+          <header>EconomyLight</header>
           <constraintValueType>1</constraintValueType>
-          <factField>tier_number</factField>
+          <factField>airlineID</factField>
           <fieldType>String</fieldType>
+          <operator>matches</operator>
           <parameters/>
-          <varName>TierNumber</varName>
+          <varName>AirlineID</varName>
+          <factType>FlightDetails</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>EconomyLight</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>passengerType</factField>
+          <fieldType>String</fieldType>
+          <operator>in</operator>
+          <parameters/>
+          <varName>PassengerType</varName>
+          <factType>FlightDetails</factType>
+        </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+        <org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
+          <hideColumn>false</hideColumn>
+          <width>100</width>
+          <header>EconomyLight</header>
+          <constraintValueType>1</constraintValueType>
+          <factField>age</factField>
+          <fieldType>Integer</fieldType>
+          <operator>&gt;=</operator>
+          <parameters/>
+          <varName>MinimumAge</varName>
           <factType>FlightDetails</factType>
         </org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn>
       </childColumns>
