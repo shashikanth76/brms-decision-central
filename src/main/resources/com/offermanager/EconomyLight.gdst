@@ -455,20 +455,6 @@
         <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
           <fieldValues>
             <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-              <field>addAncillaryService</field>
-              <value>$service</value>
-              <nature>1</nature>
-              <type>com.unisys.inflightservices.Service</type>
-              <method></method>
-            </org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
-          </fieldValues>
-          <variable>$flights</variable>
-          <state>1</state>
-          <methodName>addAncillaryService</methodName>
-        </org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-        <org.drools.workbench.models.datamodel.rule.ActionCallMethod>
-          <fieldValues>
-            <org.drools.workbench.models.datamodel.rule.ActionFieldFunction>
               <field>addEconomyLightService</field>
               <value>$service</value>
               <nature>1</nature>
