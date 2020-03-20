@@ -861,7 +861,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV0I5</valueString>
+        <valueString>SV29</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -897,7 +897,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Free USB Power</valueString>
+        <valueString>Free Entertainment</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -952,7 +952,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV521</valueString>
+        <valueString>SV5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
