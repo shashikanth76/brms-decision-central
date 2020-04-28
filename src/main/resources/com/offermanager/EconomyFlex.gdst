@@ -578,7 +578,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV523</valueString>
+        <valueString>SV51</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -669,7 +669,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV515</valueString>
+        <valueString>SV71</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -851,7 +851,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV144</valueString>
+        <valueString>SV10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -942,7 +942,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV38</valueString>
+        <valueString>SV5</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
