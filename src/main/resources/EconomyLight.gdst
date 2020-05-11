@@ -523,7 +523,32 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>INTERNET ACCESS 12 </valueString>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
+        <dataType>STRING</dataType>
+        <isOtherwise>false</isOtherwise>
+      </value>
+      <value>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -558,43 +583,16 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>ADT</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>SV71</valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueNumeric class="double">100.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString></valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="int">0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
         <isOtherwise>false</isOtherwise>
