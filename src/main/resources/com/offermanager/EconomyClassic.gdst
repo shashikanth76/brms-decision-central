@@ -523,7 +523,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Cabin Baggage upto 7Kg</valueString>
+        <valueString>Cabin baggage</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -583,7 +583,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueNumeric class="double">10.0</valueNumeric>
+        <valueNumeric class="double">0.0</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_DOUBLE</dataType>
         <isOtherwise>false</isOtherwise>
@@ -705,7 +705,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>1,275 Miles</valueString>
+        <valueString>Checked baggage 1 piece</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -760,7 +760,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV54</valueString>
+        <valueString>SV56</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
