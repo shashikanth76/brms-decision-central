@@ -523,7 +523,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>510 Miles</valueString>
+        <valueString>Cabin baggage</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -578,7 +578,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV53</valueString>
+        <valueString>SV50</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
