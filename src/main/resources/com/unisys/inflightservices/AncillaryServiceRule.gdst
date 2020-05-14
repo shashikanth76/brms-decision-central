@@ -576,7 +576,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -667,7 +667,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -758,7 +758,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -849,7 +849,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -940,7 +940,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1031,7 +1031,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1122,7 +1122,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1213,7 +1213,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1304,7 +1304,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -1395,7 +1395,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>USD</valueString>
+        <valueString>EUR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
