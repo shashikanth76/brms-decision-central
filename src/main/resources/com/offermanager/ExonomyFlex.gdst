@@ -523,7 +523,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>Cabin Baggage upto 7Kg</valueString>
+        <valueString>Veg Meal</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -578,7 +578,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV50</valueString>
+        <valueString>SV10</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -600,7 +600,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
