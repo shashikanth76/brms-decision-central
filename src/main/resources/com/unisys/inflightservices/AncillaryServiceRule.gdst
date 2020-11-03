@@ -8,10 +8,6 @@
     <hideColumn>false</hideColumn>
     <width>150</width>
   </descriptionCol>
-  <ruleNameColumn>
-    <hideColumn>true</hideColumn>
-    <width>150</width>
-  </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
   <conditionPatterns>
@@ -503,7 +499,6 @@
     <imports/>
   </imports>
   <packageName>com.unisys.inflightservices</packageName>
-  <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>RULE_ORDER</hitPolicy>
   <data>
@@ -512,11 +507,6 @@
         <valueNumeric class="int">1</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -611,11 +601,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Excess Baggage 2P</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -707,11 +692,6 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
         <valueString>Wifi-2HR</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
@@ -789,7 +769,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -800,11 +780,6 @@
         <valueNumeric class="int">4</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -885,7 +860,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -896,11 +871,6 @@
         <valueNumeric class="int">5</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -981,7 +951,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -992,11 +962,6 @@
         <valueNumeric class="int">6</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1077,7 +1042,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1088,11 +1053,6 @@
         <valueNumeric class="int">7</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1173,7 +1133,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1184,11 +1144,6 @@
         <valueNumeric class="int">8</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1269,7 +1224,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1280,11 +1235,6 @@
         <valueNumeric class="int">9</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1365,7 +1315,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
@@ -1376,11 +1326,6 @@
         <valueNumeric class="int">10</valueNumeric>
         <valueString></valueString>
         <dataType>NUMERIC_INTEGER</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
@@ -1461,7 +1406,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>false</valueBoolean>
+        <valueBoolean>true</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
