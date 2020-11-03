@@ -8,10 +8,6 @@
     <hideColumn>false</hideColumn>
     <width>150</width>
   </descriptionCol>
-  <ruleNameColumn>
-    <hideColumn>true</hideColumn>
-    <width>150</width>
-  </ruleNameColumn>
   <metadataCols/>
   <attributeCols/>
   <conditionPatterns>
@@ -516,7 +512,6 @@
     </imports>
   </imports>
   <packageName></packageName>
-  <version>739</version>
   <tableFormat>EXTENDED_ENTRY</tableFormat>
   <hitPolicy>RULE_ORDER</hitPolicy>
   <data>
@@ -528,12 +523,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString></valueString>
-        <dataType>STRING</dataType>
-        <isOtherwise>false</isOtherwise>
-      </value>
-      <value>
-        <valueString>Excess Baggage 1P</valueString>
+        <valueString>Cabin baggage</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -588,7 +578,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueString>SV1</valueString>
+        <valueString>SV50</valueString>
         <dataType>STRING</dataType>
         <isOtherwise>false</isOtherwise>
       </value>
@@ -610,7 +600,7 @@
         <isOtherwise>false</isOtherwise>
       </value>
       <value>
-        <valueBoolean>true</valueBoolean>
+        <valueBoolean>false</valueBoolean>
         <valueString></valueString>
         <dataType>BOOLEAN</dataType>
         <isOtherwise>false</isOtherwise>
